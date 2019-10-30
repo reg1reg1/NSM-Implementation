@@ -24,7 +24,7 @@ in detecting and preventing various kinds of attack.
 - Kali
 - Infection Monkey
 
-##Application Collection Framework
+## Application Collection Framework
 This is a framework which mentions and specifies a 3-step process for collecting and storing data. The major goals identified by the application framework are as follows.
 
 - Define and Identify threats
