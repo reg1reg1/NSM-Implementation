@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2019-11-28-01-04-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1574921081.651730	Co3O7x1kjOqPJk1Ksf	10.0.1.8	57170	10.0.0.15	22	baroque_SYN	-	F	zeek
+1574921081.799652	Co3O7x1kjOqPJk1Ksf	10.0.1.8	57170	10.0.0.15	22	premature_connection_reuse	-	F	zeek
+1574921082.491682	CCnwvq31YwbeJxSOv1	10.0.1.8	46480	10.0.0.15	80	unknown_HTTP_method	HKZE	F	zeek

@@ -1,0 +1,92 @@
+filebeat.registry.path: /home/sensor/filebeat_registry
+filebeat.inputs:
+- type: log
+  paths:
+    - /home/sensor/filebeat/*-all-traffic.log 
+  fields:
+    log_id: all_traffic
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /home/sensor/filebeat/*-ptsrstatic-traffic.log
+  fields:
+    log_id: ptsr_static_traffic
+  fields_under_root: true
+
+
+- type: log
+  paths:
+    - /home/sensor/filebeat/*-hourly-traffic.log
+  fields:
+    log_id: hourly_traffic
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /home/sensor/filebeat/*-static-traffic.log
+  fields:
+    log_id: static_traffic
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/conn.log
+  fields:
+    log_id: zeek_conn
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/http.log
+  fields:
+    log_id: zeek_http
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/weird.log
+  fields:
+     log_id: zeek_weird
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/dns.log
+  fields:
+    log_id: zeek_dns
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/ssh.log
+  fields:
+    log_id: zeek_ssh
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/software.log
+  fields:
+    log_id: zeek_software
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/ssl.log
+  fields:
+    log_id: zeek_ssl
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /usr/local/zeek/logs/current/x509.log
+  fields:
+    log_id: zeek_cert
+  fields_under_root: true
+
+
+
+
+output.logstash:
+  hosts: ["192.168.122.1:5044"]	

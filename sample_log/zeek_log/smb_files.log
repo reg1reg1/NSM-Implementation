@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2019-11-26-16-11-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1497982269.786194	CbQ7uU3MNsoSugBXH1	10.5.30.6	55636	10.101.22.128	445	-	SMB::FILE_OPEN	-	<share_root>	0	-	1497978863.869227	1497978863.869227	1497978863.869227	1497980249.909202
+#close	2019-11-26-16-11-15

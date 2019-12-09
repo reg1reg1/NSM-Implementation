@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2019-11-28-01-04-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string	string	string	string	double	double
+1574921074.795632	C5fGCj2hvkArVwPiVj	10.0.1.8	56644	10.0.0.15	22	-	-	0	-	-	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	-	-	-	-	-	-	-	-	-	-	-
+1574921082.427651	CLck122ulUbChdXEYl	10.0.1.8	56670	10.0.0.15	22	1	-	0	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	-	-	-	-	-	-	-	-	-	-	-
+1574921082.427651	ClzRpX1j8LCHRP3MTf	10.0.1.8	56668	10.0.0.15	22	1	-	0	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	-	-	-	-	-	-	-	-	-	-	-
+1574921082.515691	CdgQ6f423yZ9qdPaO1	10.0.1.8	56698	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	e1:30:af:d8:9d:35:f2:f4:1a:ab:5c:0d:74:45:b8:32	-	-	-	-	-
+1574921082.579681	CpPbHC2M6ZiWOpPaT7	10.0.1.8	56704	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ecdsa-sha2-nistp256	c8:60:d6:2a:fe:8b:18:6f:6b:b7:21:c4:18:20:dd:16	-	-	-	-	-
+1574921082.659680	CRLbyOTbDBjJDCcC8	10.0.1.8	56714	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-	-	-	-	-	-
+1574921082.643651	CxRE3F2EdaGbISHrzb	10.0.1.8	56712	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-	-	-	-	-	-
+1574921082.499632	Cw9acJ3XzINSURXHg7	10.0.1.8	56690	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-	-	-	-	-	-
+1574921082.675693	CdW5Gc29Yvt6QNO6o	10.0.1.8	56716	10.0.0.15	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-ed25519	70:0d:9c:3c:13:37:55:08:51:f6:36:2a:de:6a:ef:51	-	-	-	-	-

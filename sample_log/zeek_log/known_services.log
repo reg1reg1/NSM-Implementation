@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	known_services
+#open	2019-11-28-01-04-42
+#fields	ts	host	port_num	port_proto	service
+#types	time	addr	port	enum	set[string]
+1574921082.563645	10.0.0.15	22	tcp	SSH

