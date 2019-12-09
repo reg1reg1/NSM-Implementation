@@ -6,6 +6,10 @@ Network security is a complex process involving a lot of different micro compone
 This project is an advanced project done under the curriculum of NYU Tandon School of engineering. The purpose of this advanced project was to analyse the effort and resources required to setup a minimalist Network Security Monitoring Model and Incident response. The effectiveness of various tools available in the open-source domain are attempted to be analysed on the basis of the resource consumption, effectiveness and usefulness. Once the network was reasonably hardened, efforts to understand it’s response to some classical and improvised network attacks were also tested out. The full whitepaper-report for the NSM is here, which talks about the project in more depth
 :>  
 
+[Whitepaper.pdf]: Project%20Whitepaper.pdf
+
+
+
 ## Tools/Technologies used
 1. Justniffer, Zeek for PTSR data extraction
 2. YAF, SiLK (Cert NetSA tools) for flow collection and generation
