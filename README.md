@@ -27,6 +27,6 @@ For this implementation GNS3 was setup in a remote Ubuntu Machine. This remote v
 The remote GNS3 server (if setup) will ask for authentication credentials, but in a trusted private network or local versions may be avoided. The GNS3 client software (GUI) sees the remote server and machines running on it. Multiple clients may connect to this remote server, but it can run only 1 project at a time, and all connected clients make changes to this network which the other clients see reflect.
 The screenshot below shows a typical setup of a GNS3 network with some of the appliances.
 
-![Simulation overview](images\Simulation overview.PNG)
+![simoverview](images\simoverview.PNG)
 
 ## Sensor Placement and Network Design
